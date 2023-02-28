@@ -1,0 +1,355 @@
+@media (max-width:700px) {
+    *{
+        scroll-behavior: smooth;
+    }
+    #cursor{
+        display: none;
+      }
+    #menu{
+        top: 20px;
+        right: 10px;
+        gap: 7px;
+    }
+    #menu .line{
+        width: 60%;
+    }
+    #circle{
+        width: 45px;
+        height: 45px;
+        top: 4%;
+        left: 45%;
+    }
+    body>#box{
+        display: none;
+    } 
+    #overlay{
+        display: none;
+    }
+    
+    #overlay1{
+        display: contents;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+      }
+      #overlay1 #text{
+        width: 100%;       
+        position: fixed;
+        top: 18%;
+        right: 0;
+        z-index: 9;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red; */
+      }
+      #overlay1 h1{
+        font-size: 13vw;
+        font-family: PlayFair Display;
+        font-weight: 100;
+        letter-spacing: -0.2vw;
+        line-height: 1;
+      }
+      #overlay1 p{
+        font-family: Gilroy;
+        margin-top: 3vh;
+        line-height: 1.3;
+        font-size: 5vw;
+        width: 250px;
+      }
+    #navpage #top{
+      display: contents;
+    }
+    #navpage #top #left{
+      width: 100%;
+      height: 55vh;
+      gap: 20px;
+      padding: 120px 0 0 50px;
+    }
+    #navpage #top #left p{
+      font-size: 4vw;
+    }
+    #navpage #top #left #text h1{
+      font-size: 11vw;
+    }
+    #navpage #top #right{
+      width: 100%;
+      height: 30vh;
+      gap: 20px;
+      padding: 0 50px;
+    }
+    #navpage #top #right p{
+      font-size:4vw;
+    }
+    #navpage #top #right h1{
+      font-size: 8vw;
+      width: 350px;
+    }
+    #navpage #bottom #left{
+      display: none;
+    }
+    #navpage #bottom #right{
+        width: 100%;
+        height: 50px;
+    }
+    #navpage #bottom #right i{
+        color: #E9A1B0;
+        font-size: 10vw;
+    }
+
+
+    /* Page 1 */
+    #main #page1 {
+      gap: 50px;
+    }
+    #main #page1 h1{
+      width: 90%;
+    }
+    #main #page1 h1:nth-child(odd){
+      font-size: 4vw;
+      margin: 0;
+    }
+    #main #page1 img{
+      width: 130%;
+    }
+
+
+    /* Page 2 */
+    #main #page2{
+        width: 100%;
+        height: 230vh;
+        background-color:white;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      #main #page2 #left{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px 0;
+      }
+      #main #page2 #left .box{
+        width: fit-content;
+        height: 50vh;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #main #page2 #left .box h3{
+        font-family: gilroy;
+        font-size: 4vw;
+        font-weight: 100;
+    }
+    #main #page2 #left .box .div2{
+        padding: 0 0 0 50px;
+        width: 100%;
+    }
+    #main #page2 #left .box h2{
+        font-family: playfair display;
+        font-size: 7vw;
+        font-weight: 100;
+      }
+      
+      #main #page2 #right{
+        width:100%;
+        height: 180vh;
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: center;
+      }
+      #main #page2 #right #box{
+        width: max-content;
+        height: max-content;
+      
+      }
+      #main #page2 #right #box video{
+        width: 400px;
+        height: 400px;
+      }
+
+
+
+      /* Page 3 */
+      
+      #main #page3 .brands{
+        padding: 10px 0;
+        gap: 10px;
+        /* background-color: yellow; */
+      }
+      #main #page3 .brands .img{
+          width: 40%;
+          height: 11vh;
+      }
+       
+
+    /* Page 4 */
+    #main #page4{
+        align-items: flex-end;
+    }
+      #main #page4 h1{
+        font-size: 12vw;
+    }
+
+    /* Page 6 */
+    
+      #main #page6 #text{
+      height: 100vh;
+      display: inline-block;
+    }
+    #main #page6 #text #left{
+      width: 100%;
+      height: 80vh;
+    }
+    #main #page6 #text #left p{
+      font-size: 5vw;
+    }
+    #main #page6 #text #left h1{
+      font-size: 10vw;
+      width: 100%;
+      padding: 0 10px;
+    }
+    #main #page6 #text #right{
+      width: 100%;
+      height: 20vh;
+    }
+    #main #page6 #text #right #smallbox{
+      bottom: 50%;
+      right: 70%;
+      display: inline-block;
+    }
+    #main #page6 #text #right #smallbox p{
+      font-size: 4vw;
+    }
+
+    /* Page 7 */
+    #main #page7{
+        height: 150vh;
+      }
+      #main #page7 #top{
+          width: 100%;
+          display: inline-block;
+          height: 130vh;
+      }
+      
+      #main #page7 #top #left{
+        width: 100%;
+        height: 70vh;
+        padding-left: 0;
+    }
+    #main #page7 #left #box{
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+        gap: 70px;
+        padding: 0 50px;
+    }
+    #main #page7 #left #box p{
+        font-size: 4vw;
+    }
+    #main #page7 #left #box h1{
+        font-size:12vw;
+        width: 100%;
+    }
+      #main #page7 #left #box a{
+        font-size: 4vw;
+      }
+      #main #page7 #top #right{
+          width: 100%;
+          height: 60vh;
+          padding:0 0 0 50px;
+      }
+      #main #page7 #top #right #box{
+          width: 90%;
+          height: 60vh;
+        padding-left:0;
+        justify-content: space-around;
+        gap: 0;
+      }
+      #main #page7 #right #box #p1{
+        font-size: 3.5vw;
+      }
+      #main #page7 #right #box h2{
+        font-size:5vw;
+      }
+      #main #page7 #top #right #box #smallbox{
+        display: inline-block;
+        width: 100%;
+        height: 20vh;
+      }
+      #main #page7 #top #right #box #smallbox #left{
+        width: 100%;
+        height: 10vh;
+      }
+      #main #page7 #right #box #smallbox #left p{
+        margin-left: 0;
+        height: inherit;
+        font-size: 4vw;
+      }
+      #main #page7 #right #box #smallbox #right{
+        width: 100%;
+        height: 10vh;
+      }
+      #main #page7 #right #box #smallbox #right a{
+        font-size: 3vw;
+        margin-left: -50px;
+        
+      }
+      #main #page7 #right #box #p2{
+        font-size:4vw;
+        padding-top: 0;
+        display: none;
+      }
+      #main #page7 #right #box #p3{
+        font-size:4vw;
+      }
+      #main #page7 #right #box a{
+        padding-top: 0;
+        font-size:4vw;
+      }
+      
+      #main #page7 #footer{
+        background-color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #main #page7 #footer #left{
+        width: 100%;
+        height: 10vh;
+        align-items: flex-end;
+        justify-content: center;
+      }
+      #main #page7 #footer #left p{
+        font-size: 4vw;
+      }
+      #main #page7 #footer #right{
+        width: 100%;
+        height: 10vh;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      #main #page7 #footer #right #iconbox{
+        width: 100%;
+        height: 10vh;
+        margin-left: 0;
+        justify-content: center;
+      }
+      #main #page7 #footer #right #iconbox i{
+        font-size: 10vw;
+      }
+
+
+
+
+
+
+}
